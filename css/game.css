@@ -1,0 +1,103 @@
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid #D14D72;
+    background-color: white;
+}
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #D14D72;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    border-radius: 5px;
+}
+
+
+
+
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: #D14D72;
+    color: #ffffff;
+}
+.choice-text{
+    padding: 1.5rem;
+    width: 100%;
+    color: #D14D72;
+}
+
+.correct{
+ background-color: #28a745;
+ color: #ffffff;
+}
+.incorrect{
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+/*HUD*/
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #ffffff;
+    margin-top: 1.6rem; 
+
+}
+#progressBarFull{
+    height: 3.4rem;
+    background-color: #D14D72;
+    width: 0%;
+}
+
+
+/*LOADER*/
+#loader{
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #D14D72;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    height: 10vh;
+    font-size: large;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+

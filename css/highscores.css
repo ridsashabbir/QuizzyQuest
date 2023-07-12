@@ -1,0 +1,31 @@
+#highScoresList{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+
+}
+
+.high-score{
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.high-score:hover{
+    transform: scale(1.025);
+}
+
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    height: 10vh;
+    font-size: large;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
